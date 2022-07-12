@@ -6,7 +6,7 @@ const cafe = {
   moagem: "media fina",
 };
 
-const clone = "Seu código aqui";
+const clone = {...cafe};
 
 cafe.torra = "clara";
 
